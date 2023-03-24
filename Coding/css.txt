@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Not On Time Magazine</h1>
+<p>
+Always first with the last
+</p>
+<h2>Car Trends</h2>
+<p>
+Coal powered cars. The future?
+</p>
+<h2>Fashion Latest</h2>
+<p>
+Flared jeans
+</p>
+</body>
+</html>
