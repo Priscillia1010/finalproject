@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url("4872987.jpg");
+        background-size: cover;
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        align-items: center;
+      }
+
+      form {
+        width: 500px;
+        margin-inline: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+
+      form > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+      }
+
+      .formInput {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      label {
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      input {
+        background-color: #088178;
+        color: white;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      ::placeholder {
+        text-align: center;
+        color: white;
+      }
+
+      .login {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .login .s {
+        background-color: #088178;
+        color: white;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      .login .b {
+        background-color: #088178;
+        color: white;
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Update New Item</h1>
+      <h4>New Shoes Take You Good Place</h4>
+      <div class="formInput">
+        <div class="t">
+          <label>Title</label><br />
+          <input type="text" id="title" name="title" placeholder="Title" />
+        </div>
+        <div class="pr">
+          <label>Price</label><br />
+          <input type="text" id="price" name="price" placeholder="Price" />
+        </div>
+        <div class="u">
+          <label>Url</label><br />
+          <input type="url" id="url" name="url" placeholder="Url" />
+        </div>
+      </div>
+      <div class="login">
+        <button class="s">Submit</button>
+        <button class="b">Back</button>
+      </div>
+    </form>
+  </body>
+</html>
